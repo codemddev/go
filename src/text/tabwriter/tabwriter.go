@@ -207,6 +207,7 @@ const (
 //			to the tab width in the viewer displaying the result)
 //	flags		formatting control
 func (b *Writer) Init(output io.Writer, minwidth, tabwidth, padding int, padchar byte, flags uint) *Writer {
+	/ CodeMD throwaway test: checking Feature Impact on this language (this PR will be closed)
 	if minwidth < 0 || tabwidth < 0 || padding < 0 {
 		panic("negative minwidth, tabwidth, or padding")
 	}
