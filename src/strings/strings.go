@@ -596,6 +596,7 @@ const (
 // It panics if count is negative or if the result of (len(s) * count)
 // overflows.
 func Repeat(s string, count int) string {
+	// CodeMD throwaway test: checking Feature Impact on this language (this PR will be closed)
 	switch count {
 	case 0:
 		return ""
