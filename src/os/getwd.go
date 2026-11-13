@@ -147,3 +147,5 @@ func Getwd() (dir string, err error) {
 
 	return dir, nil
 }
+
+// Touched to re-run the CodeMD PR checks after the scan-speed fix.
